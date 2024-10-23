@@ -1,5 +1,11 @@
+import JobListings from "../Components/JobListings";
+
 const Jobspage = () => {
-  return <div>Jobspage</div>;
+  return (
+    <>
+      <JobListings />
+    </>
+  );
 };
 
 export default Jobspage;
