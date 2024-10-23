@@ -3,6 +3,7 @@ import { createBrowserRouter } from "react-router-dom";
 import Homepage from "./pages/Homepage";
 import MainLayouts from "./layouts/MainLayouts";
 import Jobspage from "./pages/Jobspage";
+import AddJobs from "./pages/AddJobs";
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
       {
         path: "jobs",
         element: <Jobspage />,
+      },
+      {
+        path: "add-jobs",
+        element: <AddJobs />,
       },
     ],
   },
