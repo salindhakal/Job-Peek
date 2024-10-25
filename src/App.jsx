@@ -5,6 +5,7 @@ import MainLayouts from "./layouts/MainLayouts";
 import Jobspage from "./pages/Jobspage";
 import AddJobs from "./pages/AddJobs";
 import NotFoundPage from "./pages/NotFoundPage";
+import Jobpage from "./pages/Jobpage";
 
 const router = createBrowserRouter([
   {
